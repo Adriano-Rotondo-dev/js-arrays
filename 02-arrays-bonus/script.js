@@ -34,7 +34,7 @@ console.log(teachers)
 
 let isFabioPresent = false 
 for ( let i = 0; i < teachers.length; i++ ) {
-  if ( isFabioPresent = true) {
+  if ( teachers[i] === 'Fabio') {
     console.log("Fabio is present")
   }
 }
