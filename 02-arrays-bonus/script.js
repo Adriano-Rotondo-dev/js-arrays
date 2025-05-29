@@ -23,7 +23,7 @@ for (let i = 0; i < teachers.length; i ++ ) {
     longNames.push(teachers)
   } 
 }
-  console.log(longNames)
+  console.log()
 // 3. Rimuovi 'Ed' dall'array teachers
 
 teachers.splice(5, 1)
