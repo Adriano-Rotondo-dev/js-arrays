@@ -19,7 +19,7 @@ console.log(reversedTeachers)
 
 const longNames = [ ]
 for (let i = 0; i < teachers.length; i ++ ) {
-  if (teachers.lenght >= 5) {
+  if (teachers[i].length >= 5) {
     longNames.push(teachers)
   } 
 }
