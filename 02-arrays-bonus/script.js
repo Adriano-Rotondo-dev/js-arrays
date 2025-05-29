@@ -20,10 +20,10 @@ console.log(reversedTeachers)
 const longNames = [ ]
 for (let i = 0; i < teachers.length; i ++ ) {
   if (teachers[i].length >= 5) {
-    longNames.push(teachers)
+    longNames.push(teachers[i])
   } 
 }
-  console.log()
+  console.log(longNames)
 // 3. Rimuovi 'Ed' dall'array teachers
 
 teachers.splice(5, 1)
